@@ -1,10 +1,44 @@
-/* time badge (5:00 PM box) */
+/* MAIN BACKGROUND */
+.clava-wrapper {
+  background-color: #ffffff !important;
+}
+
+.clava-login-bg {
+  background-image: none !important;
+  background-color: #ffffff !important;
+}
+
+/* HEADINGS */
+.clava-wrapper h1,
+.clava-wrapper h2,
+.clava-wrapper h3 {
+  color: #363636 !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* BODY TEXT */
+.clava-wrapper p,
+.clava-wrapper span,
+.clava-wrapper label {
+  color: #000000 !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* BUTTONS */
+.clava-btn {
+  background-color: #FFF04D !important;
+  border-color: #FFF04D !important;
+  color: #000000 !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* TIME BADGE (5:00 PM box) */
 .clava-day-active {
   background-color: #FF00FF !important;
   color: #ffffff !important;
 }
 
-/* icons in session cards */
+/* ICONS IN SESSION CARDS */
 .clava-session-card svg {
   color: #FFF04D !important;
 }

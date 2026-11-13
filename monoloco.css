@@ -1,0 +1,90 @@
+
+/* =========================================
+   MONO LOCO FALUN – ONCLAVA CUSTOM STYLES
+   ========================================= */
+
+/* Brand Colours */
+:root {
+  --ml-yellow: #FFF04D;
+  --ml-dark: #363636;
+  --ml-background: #F7F7F4;
+  --ml-white: #FFFFFF;
+}
+
+/* Main Background */
+.clava-wrapper {
+  background-color: var(--ml-background) !important;
+  color: var(--ml-dark) !important;
+}
+
+/* Login Background */
+.clava-login-bg {
+  background-image: none !important;
+  background-color: var(--ml-background) !important;
+}
+
+/* Headings */
+.clava-wrapper h1,
+.clava-wrapper h2,
+.clava-wrapper h3 {
+  color: var(--ml-dark) !important;
+}
+
+/* Text and Labels */
+.clava-wrapper p,
+.clava-wrapper label {
+  color: var(--ml-dark) !important;
+}
+
+/* Buttons */
+.clava-btn {
+  background-color: var(--ml-yellow) !important;
+  border-color: var(--ml-yellow) !important;
+  color: var(--ml-dark) !important;
+  border-radius: 8px !important;
+  font-weight: 700 !important;
+  transition: all 0.2s ease;
+}
+
+/* Button Hover */
+.clava-btn:hover {
+  filter: brightness(0.94);
+}
+
+/* Booking Cards */
+.clava-session-card {
+  background-color: var(--ml-white) !important;
+  border: 1px solid #DDDDDD !important;
+  border-radius: 12px !important;
+}
+
+/* Selected Calendar Days */
+.clava-day-active {
+  background-color: var(--ml-yellow) !important;
+  color: var(--ml-dark) !important;
+  border-radius: 8px !important;
+}
+
+/* Profile Navigation */
+.clava-profile-nav-item {
+  background-color: var(--ml-white) !important;
+  color: var(--ml-dark) !important;
+}
+
+/* Active Navigation */
+.clava-profile-nav-active {
+  background-color: var(--ml-yellow) !important;
+  color: var(--ml-dark) !important;
+  font-weight: 700 !important;
+}
+
+/* Age Group Sections */
+.clava-age-groups-block {
+  background-color: var(--ml-white) !important;
+  border-radius: 8px !important;
+}
+
+/* Location Sections */
+.clava-location-block {
+  color: var(--ml-dark) !important;
+}

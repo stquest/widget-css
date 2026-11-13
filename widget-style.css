@@ -1,13 +1,55 @@
-.clava-wrapper {
-  background-color: #000000 !important;
+/* Remove background image and change background colour */
+.clava-login-bg {
+  background-image: none !important;
+  background-color: #201D1D !important;
 }
 
-.clava-session-card {
-  background-color: #000000 !important;
-  border: 1px solid #333 !important;
-}
-
+/* buttons */
 .clava-btn {
-  background-color: #ffffff !important;
-  color: #000000 !important;
+  background-color: #FF00FF !important;
+  border-color: #FF00FF !important;
+  border-width: 0 !important;
+  border-radius: 100px !important;
+  color: #1d1d1b !important;
+  font-size: 0.9rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.07em !important;
+  text-transform: uppercase !important;
 }
+
+.clava-btn:hover {
+  background-color: #FFF04D !important;
+  color: #ffffff !important;
+}
+
+/* Apply Poppins throughout the widget */
+.clava-wrapper,
+.clava-wrapper * {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* main content from the widget */
+.clava-wrapper {
+  background-color: #FF00FF !important;
+}
+
+/* Headers within the widget wrapper */
+.clava-wrapper h1,
+.clava-wrapper h2,
+.clava-wrapper h3 {
+  color: #5888AA !important;
+}
+
+/* Normal text/paragraphs */
+.clava-wrapper p,
+.clava-wrapper span,
+.clava-wrapper label {
+  color: #5888AA !important;
+}
+
+.clava-day-active {
+  background-color: red !important;
+}
+
+.clava-profile-nav-item {
+  background-color

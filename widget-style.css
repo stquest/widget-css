@@ -1,14 +1,10 @@
-/* Header bar */
-.clava-wrapper {
-  background-color: #363636 !important;
+/* time badge (5:00 PM box) */
+.clava-day-active {
+  background-color: #FF00FF !important;
+  color: #ffffff !important;
 }
 
-/* Keep logo + icons white */
-.clava-wrapper h1,
-.clava-wrapper h2,
-.clava-wrapper h3,
-.clava-wrapper p,
-.clava-wrapper span,
-.clava-wrapper label {
-  color: #ffffff !important;
+/* icons in session cards */
+.clava-session-card svg {
+  color: #FFF04D !important;
 }

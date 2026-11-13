@@ -1,32 +1,50 @@
-.clava-wrapper {
-  background-color: #ffffff !important;
-  font-family: "Poppins", sans-serif !important;
+/* Remove background image and change background colour */
+
+.clava-login-bg {
+background-image: none !important;
+background-color: #ffffff !important;
 }
 
-.clava-wrapper h1,
-.clava-wrapper h2,
-.clava-wrapper h3 {
-  color: #363636 !important;
-}
-
-.clava-wrapper p,
-.clava-wrapper span,
-.clava-wrapper label {
-  color: #363636 !important;
-}
+/* buttons */
 
 .clava-btn {
-  background-color: #FF00FF !important;
-  border-color: #FF00FF !important;
-  color: #ffffff !important;
-  font-family: "Poppins", sans-serif !important;
+background-color: #FF00FF !important;
+border-color: #FF00FF !important;
+border-width: 0 !important;
+border-radius: 100px !important;
+color: #ffffff !important;
+font-family: "Poppins", sans-serif !important;
+font-size: 0.9rem !important;
+font-weight: 400 !important;
+letter-spacing: 0.07em !important;
+text-transform: uppercase !important;
 }
 
-.clava-session-card svg {
-  color: #FFF04D !important;
+.clava-btn:hover {
+background-color: #FF00FF !important;
+color: #ffffff !important;
+}
+
+/* main content from the widget */
+
+.clava-wrapper {
+background-color: #ffffff !important;
+font-family: "Poppins", sans-serif !important;
+}
+
+/* Headers within the widget wrapper */
+
+.clava-wrapper h1, .clava-wrapper h2, .clava-wrapper h3 {
+color: #363636 !important;
+}
+
+/* Normal text/paragraphs */
+
+.clava-wrapper p, .clava-wrapper span, .clava-wrapper label {
+color: #363636 !important;
 }
 
 .clava-day-active {
-  background-color: #FF00FF !important;
-  color: #ffffff !important;
+background-color: #FF00FF !important;
+color: #ffffff !important;
 }

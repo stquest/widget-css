@@ -1,90 +1,44 @@
 
-/* =========================================
-   MONO LOCO FALUN – ONCLAVA CUSTOM STYLES
-   ========================================= */
+/* MONO LOCO FALUN - ONCLAVA TEST */
 
-/* Brand Colours */
+/* Brand colours */
 :root {
   --ml-yellow: #FFF04D;
-  --ml-dark: #363636;
+  --ml-grey: #363636;
   --ml-background: #F7F7F4;
-  --ml-white: #FFFFFF;
 }
 
-/* Main Background */
-.clava-wrapper {
-  background-color: var(--ml-background) !important;
-  color: var(--ml-dark) !important;
+/* Test that our stylesheet is loading */
+html body {
+  background-color: #F7F7F4 !important;
 }
 
-/* Login Background */
-.clava-login-bg {
-  background-image: none !important;
-  background-color: var(--ml-background) !important;
+/* Main text */
+body h1,
+body h2,
+body h3 {
+  color: #363636 !important;
 }
 
-/* Headings */
-.clava-wrapper h1,
-.clava-wrapper h2,
-.clava-wrapper h3 {
-  color: var(--ml-dark) !important;
+/* Common primary buttons */
+body button[type="submit"],
+body .btn-primary,
+body .clava-btn {
+  background-color: #FFF04D !important;
+  border-color: #FFF04D !important;
+  color: #363636 !important;
 }
 
-/* Text and Labels */
-.clava-wrapper p,
-.clava-wrapper label {
-  color: var(--ml-dark) !important;
+/* Button hover */
+body button[type="submit"]:hover,
+body .btn-primary:hover,
+body .clava-btn:hover {
+  background-color: #F2DF30 !important;
 }
 
-/* Buttons */
-.clava-btn {
-  background-color: var(--ml-yellow) !important;
-  border-color: var(--ml-yellow) !important;
-  color: var(--ml-dark) !important;
-  border-radius: 8px !important;
-  font-weight: 700 !important;
-  transition: all 0.2s ease;
-}
-
-/* Button Hover */
-.clava-btn:hover {
-  filter: brightness(0.94);
-}
-
-/* Booking Cards */
-.clava-session-card {
-  background-color: var(--ml-white) !important;
-  border: 1px solid #DDDDDD !important;
-  border-radius: 12px !important;
-}
-
-/* Selected Calendar Days */
-.clava-day-active {
-  background-color: var(--ml-yellow) !important;
-  color: var(--ml-dark) !important;
-  border-radius: 8px !important;
-}
-
-/* Profile Navigation */
-.clava-profile-nav-item {
-  background-color: var(--ml-white) !important;
-  color: var(--ml-dark) !important;
-}
-
-/* Active Navigation */
-.clava-profile-nav-active {
-  background-color: var(--ml-yellow) !important;
-  color: var(--ml-dark) !important;
-  font-weight: 700 !important;
-}
-
-/* Age Group Sections */
-.clava-age-groups-block {
-  background-color: var(--ml-white) !important;
-  border-radius: 8px !important;
-}
-
-/* Location Sections */
-.clava-location-block {
-  color: var(--ml-dark) !important;
+/* Input focus */
+body input:focus,
+body select:focus {
+  border-color: #FFF04D !important;
+  outline-color: #FFF04D !important;
 }
